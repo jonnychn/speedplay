@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "SpeedPlay",
+  "version": "1.3",
+  "description": "Adjust playback speed of videos to 0.5x, 1x, 1.5x, 2x, or 2.5x.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "default_title": "SpeedPlay"
+  }
+}
